@@ -1,0 +1,15 @@
+* 3f944c4 (HEAD -> main) add .gitignore
+* 9a5309e add search test
+* a4812e0 add search by name
+* 1664f24 add product search
+* c603657 add product model
+* 6f6deca Add readme
+---------------------------
+1. تفاوت git add و git commit:
+git add تغییرات را به Staging Area منتقل می‌کند، اما git commit تغییرات آماده‌شده را در تاریخچه مخزن ثبت می‌کند.
+
+2. چرا فایل .env نباید commit شود؟
+چون این فایل معمولاً اطلاعات محرمانه مانند رمزهای عبور و کلیدهای API را نگهداری می‌کند و نباید وارد مخزن شود.
+
+3. تفاوت git diff و git diff --staged:
+git diff تغییرات فایل‌های tracked را که هنوز stage نشده‌اند نشان می‌دهد، اما git diff --staged تغییرات stage‌شده را نسبت به آخرین commit نمایش می‌دهد.

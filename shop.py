@@ -6,3 +6,6 @@ class Product:
 
 def find_by_name(products, text):
     return [p for p in products if text.lower() in p.name.lower()]
+
+def total(prices):
+    return sum(prices)

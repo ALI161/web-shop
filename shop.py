@@ -9,3 +9,7 @@ def find_by_name(products, text):
 
 def total(prices):
     return sum(prices)
+
+
+def apply_discount(price, percent):
+    return price * (100 - percent) / 100

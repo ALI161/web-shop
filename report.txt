@@ -1,0 +1,8 @@
+* fbcf34f (HEAD -> main) Add .gitignore
+* e247775 Add search test
+* 2d60219 Add search by name
+* d460150 Add Product model
+* 200662e Add README
+git add copies a change to the staging area, while git commit records it in history.
+.env must not be committed because it may contain secrets.
+git diff shows unstaged changes, git diff --staged shows what will be in the next commit.

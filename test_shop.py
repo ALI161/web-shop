@@ -11,4 +11,4 @@ def test_find_missing():
     assert find_by_name(products, "Monitor") == []
 
 def test_find_case_insensitive():
-assert [p.sku for p in find_by_name(products, "KEY")] == ["B2"]
+	assert [p.sku for p in find_by_name(products, "KEY")] == ["B2"]

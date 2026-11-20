@@ -1,3 +1,3 @@
 # web-shop
-A simple online shop.
+An online shop for learning Git.
 Run tests with: python -m pytest -q

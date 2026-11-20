@@ -22,3 +22,6 @@ def apply_discount(price, percent):
 
 def add_tax(price, rate=0.15):
     return price * (1 + rate)
+
+def sort_by_price(products):
+    return sorted(products, key=lambda p: p.price)
